@@ -4,7 +4,7 @@ import mysql from "mysql2/promise"
 async function createApp() {
     const app = express()
 
-    let connectionOptions = {host: 'localhost', user: 'root', database: 'lift_pass', password: 'mysql'}
+    let connectionOptions = {host: 'mariadb', user: 'root', database: 'lift_pass', password: 'mysql'}
     const connection = await mysql.createConnection(connectionOptions)
 
     app.put('/prices', async (req, res) => {
