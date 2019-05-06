@@ -2,6 +2,8 @@
 
 Lift Pass Pricing Refactoring Kata.
 
+## Node
+
 This is a [Node.js](https://nodejs.org/en/) project. Have [npm](https://www.npmjs.com/) in your path, verify using `npm --version`.
 
 To install dependencies:
@@ -17,3 +19,10 @@ To run the tests:
 To start the application:
 
     npm start
+
+
+## With Docker 
+
+To start the application:
+
+    docker-compose up
